@@ -230,7 +230,7 @@ def tab_fragment(index_ref, input_image_ref):
             process_toast.toast("Downloading output image...", icon="📥")
 
         # FOR DEBUGGING
-        st.write(st.session_state)
+        # st.write(st.session_state)
 
     except Exception as e:
         st.error("An error occurred while processing the image: " + str(e))
